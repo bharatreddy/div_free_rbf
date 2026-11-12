@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+*.png
+demo_data/fitacf/*
+!demo_data/fitacf/.gitkeep
+demo_data/map2/*
+!demo_data/map2/.gitkeep
