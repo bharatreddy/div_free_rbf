@@ -99,3 +99,22 @@ For Option A, this kernel runs Python from the Conda environment of the same nam
 Edit the fitacf/MAP2 glob patterns and UTC time, then run cells in order.
 The notebook includes LOS versus DFF and before/after quality-filter comparisons,
 with signed red–blue LOS coloring and the current 18–00 MLT sector view.
+
+## Citation
+
+If you use this software in your research, please cite the software release.
+Citation metadata is provided in [CITATION.cff](CITATION.cff); GitHub displays a
+**Cite this repository** option using that file. The Zenodo DOI can be added
+when the archived release is published.
+
+## License
+
+Licensed under the [GNU General Public License, version 3](LICENSE)
+(`GPL-3.0-only`). See [NOTICE.md](NOTICE.md) for attribution and contact details.
+
+GPL redistribution of the compiled wheel requires providing its corresponding
+source code, including the scripts needed to build it, in accordance with
+section 6 of the license. This repository currently contains binaries only;
+adding a license does not by itself satisfy the source-availability requirement.
+Provide the matching source and build instructions before redistributing the
+binary release under these terms.
