@@ -118,3 +118,12 @@ section 6 of the license. This repository currently contains binaries only;
 adding a license does not by itself satisfy the source-availability requirement.
 Provide the matching source and build instructions before redistributing the
 binary release under these terms.
+
+
+## HMB filtering (0.1.2)
+
+`fitting.los_map_prior.allow_vectors_below_hmb` defaults to `false`. MAP2
+prior vectors below the local Heppner–Maynard boundary are excluded; measured
+LOS inputs and DFF evaluation locations remain available. Set this flag to
+`true` to restore unrestricted MAP2 sampling. Restart notebook kernels after
+upgrading the compiled wheel.

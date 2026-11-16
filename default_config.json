@@ -36,7 +36,8 @@
         "mlt_grid_start": 0.0,
         "mlt_grid_end": 23.0,
         "mlt_grid_step": 24
-      }
+      },
+      "allow_vectors_below_hmb": false
     },
     "dff_binning": true,
     "dff_bin_size_degrees": {
