@@ -120,10 +120,6 @@ Provide the matching source and build instructions before redistributing the
 binary release under these terms.
 
 
-## HMB filtering (0.1.2)
+## HMB fit domain (0.1.3)
 
-`fitting.los_map_prior.allow_vectors_below_hmb` defaults to `false`. MAP2
-prior vectors below the local Heppner–Maynard boundary are excluded; measured
-LOS inputs and DFF evaluation locations remain available. Set this flag to
-`true` to restore unrestricted MAP2 sampling. Restart notebook kernels after
-upgrading the compiled wheel.
+`fitting.los_map_prior.allow_vectors_below_hmb` defaults to `false`. Below-HMB LOS measurements, MAP2 priors, RBF centers and DFF evaluation locations are excluded from file-based fitting. Raw LOS diagnostics may retain those observations. Set `true` to allow fitting below the HMB. Restart notebook kernels after upgrading.

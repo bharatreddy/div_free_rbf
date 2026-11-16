@@ -4,7 +4,7 @@ title: "div_free_rbf: Divergence-free RBF fitting for SuperDARN velocity data"
 authors:
   - family-names: Kunduri
     given-names: Bharat
-version: 0.1.2
+version: 0.1.3
 repository-code: "https://github.com/bharatreddy/div_free_rbf"
 url: "https://github.com/bharatreddy/div_free_rbf"
 abstract: >-
